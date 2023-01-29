@@ -39,6 +39,7 @@ git rm -- cached <filename> - removes a cached file so that you can add it to th
 
 git remote add origin <urlofgitrepository>.git - adds your repository to a created github repository
 
+git push -u origin master - pushes your master branch to github
 
 
 
