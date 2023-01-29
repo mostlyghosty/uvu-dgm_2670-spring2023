@@ -41,6 +41,8 @@ git remote add origin <urlofgitrepository>.git - adds your repository to a creat
 
 git push -u origin master - pushes your master branch to github
 
+git clone <githubURL> - downloads a clone of a repository
+
 
 
 
