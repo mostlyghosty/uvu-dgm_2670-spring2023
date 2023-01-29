@@ -1,0 +1,5 @@
+Commands for Git
+
+"git clone https://gihub.com/git/git" - this command updates get through the terminal
+"git init" - this initializes your repository in the selected folder (there are two ways to select the correct folder the first is through the terminal by typing "cd <path of the directory>" or by navigating to your folder right clicking and then selecting "Git Bash Here" from the drop down menu.)
+"git status" - shows what has and hasn't been saved to the repository
