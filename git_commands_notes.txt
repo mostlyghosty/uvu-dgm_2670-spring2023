@@ -1,4 +1,5 @@
-Commands for Git
+									Commands for Git
+
 
 git clone https://gihub.com/git/git - this command updates get through the terminal
 
@@ -14,12 +15,39 @@ git commit -m "<message>" - "-m" means message. You can type a message after thi
 
 git branch - shows all current branches as well as indicating the branch you are currently working in
 
-
 git branch <nameofbranch> - creates a new branch in order to protect the files in the original branch
 
 git checkout <nameofbranch> - Switches to branch you have indicated
 
 git checkout -b <nameofbranch> - does the above two commands in a single command
+
+git merge <nameofbranch> - merges indicated branch with the master
+
+git branch <nameofbranch> -d - deletes indicated branches (Sometimes this won't work depending on the state of your branch)
+
+git branch <nameofbranch> -D - an uppercase "D" Forces the deletion of the branch
+
+git add . - adds every file that you have changed
+
+git log - shows all the commits that you have made
+
+git revert <commitID> - reverts repository to the selected previous commit ("ctrl x" exits the page that appears after this)
+
+.gitignore is a file that allows you to hide files so that others viewing your repository can't view. This is useful to hide files that you do not want others to see or to hide intitialization folders that others already have on thier system and duplicates could cause errors.
+
+git rm -- cached <filename> - removes a cached file so that you can add it to the .gitignore
+
+git remote add origin <urlofgitrepository>.git - adds your repository to a created github repository
+
+
+
+
+
+
+
+
+
+
 
 
 
