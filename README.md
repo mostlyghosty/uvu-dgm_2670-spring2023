@@ -1,3 +1,3 @@
 # uvu-dgm_2670-spring2023
 
-honestly just a learning exercise for class
+This is a repo for class assignments at uvu for DGM 2670, Scripting for Animation.
